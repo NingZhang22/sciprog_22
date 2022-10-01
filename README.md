@@ -1,6 +1,6 @@
 # Scientific Programming Concepts PH502/ACM40660 Autumn 2022
 
-# Update by Ning. 
+# Update by Ning Zhang.  
 
 Fork this repository into your github account. From there; 
 
