@@ -52,7 +52,7 @@ int main() {
     for (;x<=0.9;x+=0.01) {
         *p1 = arctanh1(x, delta);
         *p2 = arctanh2(x);
-        if (x<-0.8) printf("arctan1(%lf)=%lf\tarctan2(%lf)=%lf \n", x, *p1, x, *p2);
+        if (x<-0.8) printf("The difference between arctan1(%lf) and arctan2(%lf) is %lf. \n", x, x, fabs(*p1-*p2));
         p1++;
         p2++;
     }
