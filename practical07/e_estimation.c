@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 
 /*return the factorial restlt of n*/
 int factorial(int n) {
@@ -34,7 +35,7 @@ double* allocate_array(int n) {
 /*print the one-dimension array*/
 void print_array(double* arr, int n) {
     int i;
-    for (i=0;i<n;i++) printf("f(%d)=%lf \n", i+1, *(arr+i));
+    for (i=0;i<n;i++) printf("f(%d)-e = %.15lf. \n", i+1, *(arr+i)-exp(1));
 }
 
 int main() {
