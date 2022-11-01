@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "mm.h"
 
 int main() {
@@ -15,6 +16,8 @@ int main() {
     print_matrix(&a[0][0], n, p);
     printf("matrix b: \n");
     print_matrix(&b[0][0], p, q);
+    
+    free(c);
     
     return 0;
 }
