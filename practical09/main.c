@@ -82,6 +82,7 @@ int main() {
     if (result) printf("This is a magic square. \n");
     else printf("This is not a magic square. \n");
     
+    for (i=0;i<n;i++) free(a[i]);
     free(a);
     fclose(fp);
     return 0;
