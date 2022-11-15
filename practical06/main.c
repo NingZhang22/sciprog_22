@@ -17,6 +17,7 @@ int main() {
     printf("matrix b: \n");
     print_matrix(&b[0][0], p, q);
     
+    for (i=0;i<n;i++) free(c[i]);
     free(c);
     
     return 0;
