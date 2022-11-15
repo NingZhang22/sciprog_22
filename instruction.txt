@@ -1,0 +1,44 @@
+This file includes instructions for practical codes each week. 
+
+- practical02: 
+exercise1:
+compile the code using 'gcc -o Conversion Conversion.c -lm'
+exercise2:
+compile the code using 'gcc -o Sum Sum.c'
+
+- practical03: 
+compile the code using 'gcc -o Calculus Calculus.c -lm'
+
+- practical04: 
+compile the code using 'gcc -o Calculus02 Calculus02.c -lm'
+
+- practical05: 
+exercise1:
+compile the code using 'gcc -o Fibonacci Fibonacci.c'
+exercise2:
+compile the code using 'gcc -o arctanh arctanh.c -lm'
+
+- practical06: 
+The main.c requires the function multiply() and print_matrix(), which are declared in mm.h. 
+The functions are implemented in mm.c. 
+Use 'make' to generate the executable file. 
+
+- practical07: 
+exercise1:
+compile the code using 'gcc -o e_estimation e_estimation.c -lm'
+exercise2:
+compile the code using 'gcc -o allocation allocation.c -lm'
+
+- practical08: 
+compile the code using 'gcc -o common_divisor common_divisor.c'
+
+- practical09: 
+The function of deciding whether a matrix is a magic square is implemented in magic_square.h. 
+The entries of matrix is written in m.txt. 
+Compile the code using 'gcc -o main main.c'. 
+
+- practical10: 
+The 'disks' are stored as integers in stacks. 
+Some functions of stack (e.g. push(), pop()) are written in stack.h. 
+Compile the code using 'gcc -o main main.c'. 
+
