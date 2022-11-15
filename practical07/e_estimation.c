@@ -28,7 +28,7 @@ double estimate(int n) {
 
 /*allocate the one-dimension array storing the value of polynomials with different orders*/
 double* allocate_array(int n) {
-    double* arr = (double *)malloc(n*sizeof(double *));
+    double* arr = (double *)malloc(n*sizeof(double));
     return arr;
 }
 
